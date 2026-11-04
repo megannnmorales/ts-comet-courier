@@ -38,5 +38,3 @@ function describeResult(result) {
         return `${result.message}`;
     }
 }
-
-console.log(describeResult(fetchCustomer("d5")))
