@@ -13,8 +13,3 @@ function createShipment(fields) {
     let ship = { ...ids, ...fields };
     return ship;
 }
-
-
-const field = { origin: "Leeds", destination: "Bristol", weightKg: 4.2, status: "in_transit", customerId: "c5" }
-
-console.log(createShipment(field))
