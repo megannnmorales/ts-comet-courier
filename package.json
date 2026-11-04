@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/megannnmorales/comet-courier#readme",
   "devDependencies": {
+    "@types/randomstring": "^1.3.0",
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "human-readable-ids": "^1.0.4",
     "randomstring": "^1.3.2"
   }
 }

@@ -1,7 +1,4 @@
 "use strict";
-
-const { shipments } = require("./models");
-
 Object.defineProperty(exports, "__esModule", { value: true });
 function updateEntity(array, id, fields) {
     let newArray = [];
@@ -16,12 +13,6 @@ function updateEntity(array, id, fields) {
     }
     return newArray;
 }
-
-const fields = {status: "in transit"}
-
-console.log(updateEntity(shipments, "s2", fields))
-
-
 // if shipment["id"] == id
 //     for field in fields
 //      if field is in shipment:
